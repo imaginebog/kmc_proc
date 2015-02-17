@@ -1,0 +1,144 @@
+Wed Jul 10 08:47:35 COT 2013
+2
+DTI not found
+===========
+3
+DTI not found
+===========
+9
+DTI not found
+===========
+20
+DTI not found
+===========
+31
+All tests passed
+===========
+35
+All tests passed
+===========
+44
+All tests passed
+===========
+51
+All tests passed
+===========
+64
+All tests passed
+===========
+65
+All tests passed
+===========
+72
+All tests passed
+===========
+73
+All tests passed
+===========
+83
+All tests passed
+===========
+95
+All tests passed
+===========
+108
+All tests passed
+===========
+121
+All tests passed
+===========
+124
+Wrong Miedo dimensions
+80 80 163 1
+===========
+128
+All tests passed
+===========
+129
+All tests passed
+===========
+138
+All tests passed
+===========
+153
+All tests passed
+===========
+165
+All tests passed
+===========
+177
+All tests passed
+===========
+198
+All tests passed
+===========
+205
+All tests passed
+===========
+216
+All tests passed
+===========
+219
+All tests passed
+===========
+221
+All tests passed
+===========
+225
+All tests passed
+===========
+227
+All tests passed
+===========
+230
+All tests passed
+===========
+231
+All tests passed
+===========
+232
+All tests passed
+===========
+237
+All tests passed
+===========
+256
+MPRAGE not found
+===========
+300
+All tests passed
+===========
+348
+All tests passed
+===========
+357
+All tests passed
+===========
+409
+All tests passed
+===========
+427
+All tests passed
+===========
+500
+DTI not found
+===========
+517
+All tests passed
+===========
+559
+DTI not found
+===========
+645
+DTI not found
+===========
+730
+Wrong MPRAGE dimensions
+448 448 310 1
+===========
+891
+All tests passed
+===========
+992
+All tests passed
+===========
