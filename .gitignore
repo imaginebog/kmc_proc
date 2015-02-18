@@ -7,3 +7,5 @@ logs/*
 #tracula temp
 tracula/high_temp_*
 
+#nohup
+nohup*.out
