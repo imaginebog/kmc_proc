@@ -1,6 +1,9 @@
 #logs
-
 logs/*
 
 #backups
 *~
+
+#tracula temp
+tracula/high_temp*.conf
+
