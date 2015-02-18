@@ -7,28 +7,41 @@ exit 0
 fi
 
 subject=$1
+log_file=logs/freeSurfer_$1.txt
+
+kmc_400_root=/media/DATAPART5/kmc400
+apps_root=/media/DATAPART5/applications
+
+#logging
+echo running $0 $1 $2 > $log_file
+echo started $1 : $(date) >> $log_file
+echo ============ >> $log_file
+
 
 # verificar que estamos en el directorio correcto
-cd /media/DATAPART5/kmc400/scripts
+cd $kmc_400_root/scripts 
 
 #Variables de entorno de freesurfer
-export FREESURFER_HOME=/media/DATAPART4/DarMart/Software/Fuentes/freesurfer
-export SUBJECTS_DIR=/media/DATAPART5/kmc400/freeSurfer_Tracula
+export FREESURFER_HOME=$apps_root/free_surfer_new/freesurfer
+export SUBJECTS_DIR=$kmc_400_root/freeSurfer_Tracula
 
 #crear estructura de archivos de freesurfer
-mksubjdirs $SUBJECTS_DIR/$subject
-
+mksubjdirs $SUBJECTS_DIR/$subject >> $log_file 2>&1
+ 
 #Copiar imagen anatomica
 
-mri_convert ../nii/$subject/MPRAGEmodifiedSENSE.nii.gz ../freeSurfer_Tracula/$subject/mri/orig/001.mgz
+mri_convert ../nii/$subject/MPRAGEmodifiedSENSE.nii.gz ../freeSurfer_Tracula/$subject/mri/orig/001.mgz >> $log_file 2>&1
 
 #freesurfer auto recon all
-recon-all -autorecon-all -subjid $subject
+echo >> $log_file 2>&1
+echo recon-all -autorecon-all -subjid $subject >> $log_file 2>&1
+echo ===================== >> $log_file 2>&1
+recon-all -autorecon-all -subjid $subject >> $log_file 2>&1
 
 if [ $? -eq 0 ]
 then
-echo Free Surfer completed succesfully
+echo Free Surfer completed succesfully >> $log_file 2>&1
 else
-echo Error running free surfer... please check output
+echo Error running free surfer... please check output >> $log_file 2>&1
 echo Error running free surfer... please check output >&2
 fi

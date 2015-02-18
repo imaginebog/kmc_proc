@@ -1,0 +1,47 @@
+%-----------------------------------------------------------------------
+% Job configuration created by cfg_util (rev $Rev: 4252 $)
+%-----------------------------------------------------------------------
+matlabbatch{1}.cfg_basicio.cfg_named_dir.name = 'Subject Directory';
+matlabbatch{1}.cfg_basicio.cfg_named_dir.dirs = {'<UNDEFINED>'};
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1) = cfg_dep;
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).tname = 'Directory';
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).tgt_spec{1}(1).name = 'filter';
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).tgt_spec{1}(1).value = 'dir';
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).tgt_spec{1}(2).name = 'strtype';
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).tgt_spec{1}(2).value = 'e';
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).sname = 'Named Directory Selector: Subject Directory(1)';
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).src_exbranch = substruct('.','val', '{}',{1}, '.','val', '{}',{1});
+matlabbatch{2}.cfg_basicio.cfg_cd.dir(1).src_output = substruct('.','dirs', '{}',{1});
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1) = cfg_dep;
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).tname = 'Parent Directory';
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).tgt_spec{1}(1).name = 'filter';
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).tgt_spec{1}(1).value = 'dir';
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).tgt_spec{1}(2).name = 'strtype';
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).tgt_spec{1}(2).value = 'e';
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).sname = 'Named Directory Selector: Subject Directory(1)';
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).src_exbranch = substruct('.','val', '{}',{1}, '.','val', '{}',{1});
+matlabbatch{3}.cfg_basicio.cfg_mkdir.parent(1).src_output = substruct('.','dirs', '{}',{1});
+matlabbatch{3}.cfg_basicio.cfg_mkdir.name = 'Structural';
+matlabbatch{4}.cfg_basicio.cfg_named_file.name = 'DicomFiles';
+matlabbatch{4}.cfg_basicio.cfg_named_file.files = {'<UNDEFINED>'};
+matlabbatch{5}.spm.util.dicom.data(1) = cfg_dep;
+matlabbatch{5}.spm.util.dicom.data(1).tname = 'DICOM files';
+matlabbatch{5}.spm.util.dicom.data(1).tgt_spec{1}(1).name = 'class';
+matlabbatch{5}.spm.util.dicom.data(1).tgt_spec{1}(1).value = 'cfg_files';
+matlabbatch{5}.spm.util.dicom.data(1).tgt_spec{1}(2).name = 'strtype';
+matlabbatch{5}.spm.util.dicom.data(1).tgt_spec{1}(2).value = 'e';
+matlabbatch{5}.spm.util.dicom.data(1).sname = 'Named File Selector: DicomFiles(1) - Files';
+matlabbatch{5}.spm.util.dicom.data(1).src_exbranch = substruct('.','val', '{}',{4}, '.','val', '{}',{1});
+matlabbatch{5}.spm.util.dicom.data(1).src_output = substruct('.','files', '{}',{1});
+matlabbatch{5}.spm.util.dicom.root = 'flat';
+matlabbatch{5}.spm.util.dicom.outdir(1) = cfg_dep;
+matlabbatch{5}.spm.util.dicom.outdir(1).tname = 'Output directory';
+matlabbatch{5}.spm.util.dicom.outdir(1).tgt_spec{1}(1).name = 'filter';
+matlabbatch{5}.spm.util.dicom.outdir(1).tgt_spec{1}(1).value = 'dir';
+matlabbatch{5}.spm.util.dicom.outdir(1).tgt_spec{1}(2).name = 'strtype';
+matlabbatch{5}.spm.util.dicom.outdir(1).tgt_spec{1}(2).value = 'e';
+matlabbatch{5}.spm.util.dicom.outdir(1).sname = 'Make Directory: Make Directory ''Structural''';
+matlabbatch{5}.spm.util.dicom.outdir(1).src_exbranch = substruct('.','val', '{}',{3}, '.','val', '{}',{1});
+matlabbatch{5}.spm.util.dicom.outdir(1).src_output = substruct('.','dir');
+matlabbatch{5}.spm.util.dicom.convopts.format = 'img';
+matlabbatch{5}.spm.util.dicom.convopts.icedims = 0;

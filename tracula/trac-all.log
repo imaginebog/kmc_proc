@@ -1,0 +1,30 @@
+
+
+New invocation of trac-paths
+
+
+diego_a
+gambita.uniandes.edu.co
+Linux gambita.uniandes.edu.co 3.12.8-300.fc20.x86_64 #1 SMP Thu Jan 16 01:07:50 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+cputime      unlimited
+filesize     unlimited
+datasize     unlimited
+stacksize    8192 kbytes
+coredumpsize 0 kbytes
+memoryuse    unlimited
+vmemoryuse   unlimited
+descriptors  1024 
+memorylocked 64 kbytes
+maxproc      1024 
+maxlocks     unlimited
+maxsignal    386266 
+maxmessage   819200 
+maxnice      0 
+maxrtprio    0 
+maxrttime    unlimited
+
+             total       used       free     shared    buffers     cached
+Mem:      49457884   44597316    4860568     200728    2960896   36351284
+-/+ buffers/cache:    5285136   44172748
+Swap:            0          0          0
+

@@ -1,0 +1,987 @@
+Fri Dec 20 16:53:08 COT 2013
+2
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+3
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+9
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+15
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+!Atencion not found
+Memoria Fine
+1 errors found
+===========
+19
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+!Prension nor found
+coordinacion fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+20
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+31
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+35
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+44
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+51
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+64
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+65
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+72
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+73
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+83
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+95
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+108
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+119
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+121
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+123
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+124
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+!Wrong Miedo dimensions
+80 80 163 1
+1 errors found
+===========
+128
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+129
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+138
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+151
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+!Prension nor found
+coordinacion fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+153
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+156
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+165
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+175
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+177
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+185
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+!MEMORIA not found
+1 errors found
+===========
+195
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+!Atencion not found
+!MEMORIA not found
+2 errors found
+===========
+198
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+205
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+216
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+Wrong Atencion dimensions
+80 80 2639 1
+Memoria Fine
+1 errors found
+===========
+219
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+221
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+225
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+227
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+230
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+231
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+232
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+237
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+256
+!MPRAGE not found
+!DTI not found
+!Prension nor found
+!Coordinacion not found
+!Atencion not found
+!MEMORIA not found
+6 errors found
+===========
+292
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+293
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+300
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+307
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+!MEMORIA not found
+1 errors found
+===========
+322
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+327
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+331
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+332
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+344
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+348
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+355
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+357
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+358
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+364
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+371
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+!Coordinacion not found
+Atencion Fine
+!MEMORIA not found
+2 errors found
+===========
+399
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+!Coordinacion not found
+!Atencion not found
+!MEMORIA not found
+3 errors found
+===========
+409
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+413
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+!Prension nor found
+coordinacion fine
+Miedo Fine
+1 errors found
+===========
+426
+MPRAGE fine
+!DTI not found
+!Prension nor found
+!Coordinacion not found
+!Atencion not found
+!MEMORIA not found
+5 errors found
+===========
+427
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+464
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+!Atencion not found
+!MEMORIA not found
+2 errors found
+===========
+472
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+!Atencion not found
+!MEMORIA not found
+2 errors found
+===========
+480
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+1 errors found
+===========
+499
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+500
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+517
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+535
+!MPRAGE not found
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+2 errors found
+===========
+544
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+545
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+547
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+!Different bvec
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+559
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+630
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+645
+MPRAGE fine
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+1 errors found
+===========
+712
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+!Coordinacion not found
+Atencion Fine
+!MEMORIA not found
+2 errors found
+===========
+730
+!Wrong MPRAGE dimensions
+448 448 310 1
+!DTI not found
+Prension Fine
+coordinacion fine
+Miedo Fine
+Atencion Fine
+Memoria Fine
+2 errors found
+===========
+765
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+!Coordinacion not found
+!Atencion not found
+!MEMORIA not found
+3 errors found
+===========
+850
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+!Wrong Prension dimensions
+80 80 4999 1
+coordinacion fine
+!Wrong Miedo dimensions
+80 80 15834 1
+2 errors found
+===========
+878
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+879
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+891
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+892
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+893
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+898
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+942
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+953
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Miedo Fine
+All tests passed
+===========
+954
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+964
+!Wrong MPRAGE dimensions
+256 256 150 1
+DTI Dimensions fine
+DTI bval Fine
+!Different bvec
+Prension Fine
+coordinacion fine
+!Atencion not found
+Memoria Fine
+3 errors found
+===========
+992
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========
+1039
+MPRAGE fine
+DTI Dimensions fine
+DTI bval Fine
+DTI bvec fine
+Prension Fine
+coordinacion fine
+Atencion Fine
+Memoria Fine
+All tests passed
+===========

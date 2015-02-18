@@ -1,0 +1,510 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+# java.lang.OutOfMemoryError: Cannot create GC thread. Out of system resources.
+#
+#  Internal Error (gcTaskThread.cpp:38), pid=22601, tid=140026991953664
+#  Error: Cannot create GC thread. Out of system resources.
+#
+# JRE version: 6.0_17-b04
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (14.3-b01 mixed mode linux-amd64 )
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f5a84062000):  JavaThread "Unknown thread" [_thread_in_vm, id=22972, stack(0x00007f5a929d4000,0x00007f5a931d5000)]
+
+Stack: [0x00007f5a929d4000,0x00007f5a931d5000],  sp=0x00007f5a931d2c10,  free space=8187k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x6bd1ef]
+V  [libjvm.so+0x2be6c8]
+V  [libjvm.so+0x33a2fd]
+V  [libjvm.so+0x338e3e]
+V  [libjvm.so+0x338bd3]
+V  [libjvm.so+0x5a87c7]
+V  [libjvm.so+0x697695]
+V  [libjvm.so+0x69732a]
+V  [libjvm.so+0x377cd0]
+V  [libjvm.so+0x67f5af]
+V  [libjvm.so+0x3def30]
+C  [libmwjmi.so+0x33c30]  _Z9InitSunVMv+0xa20
+C  [libmwjmi.so+0x346ab]
+C  [libmwjmi.so+0x24429]  _Z7mljInitv+0x19
+C  [libmwmcr.so+0x3778c]
+C  [libmwmcr.so+0x2d650]
+C  [libmwmcr.so+0x2d9de]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00007f5a84062000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=22972, stack(0x00007f5a929d4000,0x00007f5a931d5000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+00400000-00403000 r-xp 00000000 fd:00 1867834                            /usr/local/MATLAB/R2010b-2/bin/glnxa64/MATLAB
+00602000-00603000 rw-p 00002000 fd:00 1867834                            /usr/local/MATLAB/R2010b-2/bin/glnxa64/MATLAB
+00ad6000-00bbd000 rw-p 00000000 00:00 0                                  [heap]
+34e0a00000-34e0a5d000 r-xp 00000000 fd:00 399396                         /lib64/libfreebl3.so
+34e0a5d000-34e0c5d000 ---p 0005d000 fd:00 399396                         /lib64/libfreebl3.so
+34e0c5d000-34e0c5e000 rw-p 0005d000 fd:00 399396                         /lib64/libfreebl3.so
+34e0c5e000-34e0c63000 rw-p 00000000 00:00 0 
+34e2400000-34e2407000 r-xp 00000000 fd:00 399397                         /lib64/libcrypt-2.13.so
+34e2407000-34e2607000 ---p 00007000 fd:00 399397                         /lib64/libcrypt-2.13.so
+34e2607000-34e2608000 r--p 00007000 fd:00 399397                         /lib64/libcrypt-2.13.so
+34e2608000-34e2609000 rw-p 00008000 fd:00 399397                         /lib64/libcrypt-2.13.so
+34e2609000-34e2637000 rw-p 00000000 00:00 0 
+3783a00000-3783a08000 r-xp 00000000 fd:00 1481025                        /usr/lib64/libXp.so.6.2.0
+3783a08000-3783c08000 ---p 00008000 fd:00 1481025                        /usr/lib64/libXp.so.6.2.0
+3783c08000-3783c09000 rw-p 00008000 fd:00 1481025                        /usr/lib64/libXp.so.6.2.0
+3afb200000-3afb21f000 r-xp 00000000 fd:00 404930                         /lib64/ld-2.13.so
+3afb41e000-3afb41f000 r--p 0001e000 fd:00 404930                         /lib64/ld-2.13.so
+3afb41f000-3afb420000 rw-p 0001f000 fd:00 404930                         /lib64/ld-2.13.so
+3afb420000-3afb421000 rw-p 00000000 00:00 0 
+3afb600000-3afb791000 r-xp 00000000 fd:00 404931                         /lib64/libc-2.13.so
+3afb791000-3afb991000 ---p 00191000 fd:00 404931                         /lib64/libc-2.13.so
+3afb991000-3afb995000 r--p 00191000 fd:00 404931                         /lib64/libc-2.13.so
+3afb995000-3afb996000 rw-p 00195000 fd:00 404931                         /lib64/libc-2.13.so
+3afb996000-3afb99c000 rw-p 00000000 00:00 0 
+3afba00000-3afba84000 r-xp 00000000 fd:00 404932                         /lib64/libm-2.13.so
+3afba84000-3afbc83000 ---p 00084000 fd:00 404932                         /lib64/libm-2.13.so
+3afbc83000-3afbc84000 r--p 00083000 fd:00 404932                         /lib64/libm-2.13.so
+3afbc84000-3afbc85000 rw-p 00084000 fd:00 404932                         /lib64/libm-2.13.so
+3afbe00000-3afbe02000 r-xp 00000000 fd:00 404937                         /lib64/libdl-2.13.so
+3afbe02000-3afc002000 ---p 00002000 fd:00 404937                         /lib64/libdl-2.13.so
+3afc002000-3afc003000 r--p 00002000 fd:00 404937                         /lib64/libdl-2.13.so
+3afc003000-3afc004000 rw-p 00003000 fd:00 404937                         /lib64/libdl-2.13.so
+3afc200000-3afc217000 r-xp 00000000 fd:00 404936                         /lib64/libpthread-2.13.so
+3afc217000-3afc416000 ---p 00017000 fd:00 404936                         /lib64/libpthread-2.13.so
+3afc416000-3afc417000 r--p 00016000 fd:00 404936                         /lib64/libpthread-2.13.so
+3afc417000-3afc418000 rw-p 00017000 fd:00 404936                         /lib64/libpthread-2.13.so
+3afc418000-3afc41c000 rw-p 00000000 00:00 0 
+3afca00000-3afca07000 r-xp 00000000 fd:00 404952                         /lib64/librt-2.13.so
+3afca07000-3afcc06000 ---p 00007000 fd:00 404952                         /lib64/librt-2.13.so
+3afcc06000-3afcc07000 r--p 00006000 fd:00 404952                         /lib64/librt-2.13.so
+3afcc07000-3afcc08000 rw-p 00007000 fd:00 404952                         /lib64/librt-2.13.so
+3afce00000-3afce16000 r-xp 00000000 fd:00 404933                         /lib64/libz.so.1.2.5
+3afce16000-3afd016000 ---p 00016000 fd:00 404933                         /lib64/libz.so.1.2.5
+3afd016000-3afd017000 rw-p 00016000 fd:00 404933                         /lib64/libz.so.1.2.5
+3afda00000-3afda02000 r-xp 00000000 fd:00 1442727                        /usr/lib64/libXau.so.6.0.0
+3afda02000-3afdc02000 ---p 00002000 fd:00 1442727                        /usr/lib64/libXau.so.6.0.0
+3afdc02000-3afdc03000 rw-p 00002000 fd:00 1442727                        /usr/lib64/libXau.so.6.0.0
+3afde00000-3afde1b000 r-xp 00000000 fd:00 1480242                        /usr/lib64/libxcb.so.1.1.0
+3afde1b000-3afe01a000 ---p 0001b000 fd:00 1480242                        /usr/lib64/libxcb.so.1.1.0
+3afe01a000-3afe01b000 rw-p 0001a000 fd:00 1480242                        /usr/lib64/libxcb.so.1.1.0
+3afe600000-3afe739000 r-xp 00000000 fd:00 1480243                        /usr/lib64/libX11.so.6.3.0
+3afe739000-3afe939000 ---p 00139000 fd:00 1480243                        /usr/lib64/libX11.so.6.3.0
+3afe939000-3afe93f000 rw-p 00139000 fd:00 1480243                        /usr/lib64/libX11.so.6.3.0
+3afee00000-3afee11000 r-xp 00000000 fd:00 1480244                        /usr/lib64/libXext.so.6.4.0
+3afee11000-3aff011000 ---p 00011000 fd:00 1480244                        /usr/lib64/libXext.so.6.4.0
+3aff011000-3aff012000 rw-p 00011000 fd:00 1480244                        /usr/lib64/libXext.so.6.4.0
+3b00200000-3b00204000 r-xp 00000000 fd:00 404954                         /lib64/libuuid.so.1.3.0
+3b00204000-3b00403000 ---p 00004000 fd:00 404954                         /lib64/libuuid.so.1.3.0
+3b00403000-3b00404000 rw-p 00003000 fd:00 404954                         /lib64/libuuid.so.1.3.0
+3b02a00000-3b02a17000 r-xp 00000000 fd:00 1480245                        /usr/lib64/libICE.so.6.3.0
+3b02a17000-3b02c17000 ---p 00017000 fd:00 1480245                        /usr/lib64/libICE.so.6.3.0
+3b02c17000-3b02c18000 rw-p 00017000 fd:00 1480245                        /usr/lib64/libICE.so.6.3.0
+3b02c18000-3b02c1c000 rw-p 00000000 00:00 0 
+3b02e00000-3b02e07000 r-xp 00000000 fd:00 1480246                        /usr/lib64/libSM.so.6.0.0
+3b02e07000-3b03007000 ---p 00007000 fd:00 1480246                        /usr/lib64/libSM.so.6.0.0
+3b03007000-3b03008000 rw-p 00007000 fd:00 1480246                        /usr/lib64/libSM.so.6.0.0
+3b08a00000-3b08a11000 r-xp 00000000 fd:00 1478722                        /usr/lib64/libXpm.so.4.11.0
+3b08a11000-3b08c10000 ---p 00011000 fd:00 1478722                        /usr/lib64/libXpm.so.4.11.0
+3b08c10000-3b08c11000 rw-p 00010000 fd:00 1478722                        /usr/lib64/libXpm.so.4.11.0
+3b0b800000-3b0b823000 r-xp 00000000 fd:00 404938                         /lib64/libtinfo.so.5.7
+3b0b823000-3b0ba22000 ---p 00023000 fd:00 404938                         /lib64/libtinfo.so.5.7
+3b0ba22000-3b0ba27000 rw-p 00022000 fd:00 404938                         /lib64/libtinfo.so.5.7
+3b0d400000-3b0d422000 r-xp 00000000 fd:00 393563                         /lib64/libncurses.so.5.7
+3b0d422000-3b0d622000 ---p 00022000 fd:00 393563                         /lib64/libncurses.so.5.7
+3b0d622000-3b0d623000 rw-p 00022000 fd:00 393563                         /lib64/libncurses.so.5.7
+3c70a00000-3c70a18000 r-xp 00000000 fd:00 1443160                        /usr/lib64/libXmu.so.6.2.0
+3c70a18000-3c70c18000 ---p 00018000 fd:00 1443160                        /usr/lib64/libXmu.so.6.2.0
+3c70c18000-3c70c1a000 rw-p 00018000 fd:00 1443160                        /usr/lib64/libXmu.so.6.2.0
+3c72600000-3c7265f000 r-xp 00000000 fd:00 1442726                        /usr/lib64/libXt.so.6.0.0
+3c7265f000-3c7285e000 ---p 0005f000 fd:00 1442726                        /usr/lib64/libXt.so.6.0.0
+3c7285e000-3c72865000 rw-p 0005e000 fd:00 1442726                        /usr/lib64/libXt.so.6.0.0
+3c7ea00000-3c7ea16000 r-xp 00000000 fd:00 399309                         /lib64/libnsl-2.13.so
+3c7ea16000-3c7ec15000 ---p 00016000 fd:00 399309                         /lib64/libnsl-2.13.so
+3c7ec15000-3c7ec16000 r--p 00015000 fd:00 399309                         /lib64/libnsl-2.13.so
+3c7ec16000-3c7ec17000 rw-p 00016000 fd:00 399309                         /lib64/libnsl-2.13.so
+3c7ec17000-3c7ec19000 rw-p 00000000 00:00 0 
+7f5a50000000-7f5a50021000 rw-p 00000000 00:00 0 
+7f5a50021000-7f5a54000000 ---p 00000000 00:00 0 
+7f5a54000000-7f5a54021000 rw-p 00000000 00:00 0 
+7f5a54021000-7f5a58000000 ---p 00000000 00:00 0 
+7f5a58000000-7f5a58021000 rw-p 00000000 00:00 0 
+7f5a58021000-7f5a5c000000 ---p 00000000 00:00 0 
+7f5a5c000000-7f5a5c021000 rw-p 00000000 00:00 0 
+7f5a5c021000-7f5a60000000 ---p 00000000 00:00 0 
+7f5a60000000-7f5a60021000 rw-p 00000000 00:00 0 
+7f5a60021000-7f5a64000000 ---p 00000000 00:00 0 
+7f5a64000000-7f5a64021000 rw-p 00000000 00:00 0 
+7f5a64021000-7f5a68000000 ---p 00000000 00:00 0 
+7f5a68000000-7f5a68021000 rw-p 00000000 00:00 0 
+7f5a68021000-7f5a6c000000 ---p 00000000 00:00 0 
+7f5a6c315000-7f5a6c316000 ---p 00000000 00:00 0 
+7f5a6c316000-7f5a6c416000 rwxp 00000000 00:00 0 
+7f5a6c416000-7f5a6c417000 ---p 00000000 00:00 0 
+7f5a6c417000-7f5a6c517000 rwxp 00000000 00:00 0 
+7f5a6c517000-7f5a6c518000 ---p 00000000 00:00 0 
+7f5a6c518000-7f5a6c618000 rwxp 00000000 00:00 0 
+7f5a6c618000-7f5a6c619000 ---p 00000000 00:00 0 
+7f5a6c619000-7f5a6c719000 rwxp 00000000 00:00 0 
+7f5a6c719000-7f5a6c71a000 ---p 00000000 00:00 0 
+7f5a6c71a000-7f5a6c81a000 rwxp 00000000 00:00 0 
+7f5a6c81a000-7f5a6c81b000 ---p 00000000 00:00 0 
+7f5a6c81b000-7f5a6c91b000 rwxp 00000000 00:00 0 
+7f5a6c91b000-7f5a6c91c000 ---p 00000000 00:00 0 
+7f5a6c91c000-7f5a6ca1c000 rwxp 00000000 00:00 0 
+7f5a6ca1c000-7f5a6ca1d000 ---p 00000000 00:00 0 
+7f5a6ca1d000-7f5a6cb28000 rwxp 00000000 00:00 0 
+7f5a6cb28000-7f5a6cb5d000 rwxp 00000000 00:00 0 
+7f5a6cb5d000-7f5a6cb68000 rwxp 00000000 00:00 0 
+7f5a6cb68000-7f5a6cb9d000 rwxp 00000000 00:00 0 
+7f5a6cb9d000-7f5a6cbb5000 rwxp 00000000 00:00 0 
+7f5a6cbb5000-7f5a6cbe6000 rwxp 00000000 00:00 0 
+7f5a6cbe6000-7f5a6cbef000 rwxp 00000000 00:00 0 
+7f5a6cbef000-7f5a6cbff000 rwxp 00000000 00:00 0 
+7f5a6cbff000-7f5a6e0c0000 rwxp 00000000 00:00 0 
+7f5a6e0c0000-7f5a74c00000 rwxp 00000000 00:00 0 
+7f5a74c00000-7f5a77c00000 rwxp 00000000 00:00 0 
+7f5a77c00000-7f5a7df00000 rwxp 00000000 00:00 0 
+7f5a7df00000-7f5a7ef00000 rwxp 00000000 00:00 0 
+7f5a7ef00000-7f5a81000000 rwxp 00000000 00:00 0 
+7f5a81000000-7f5a81270000 rwxp 00000000 00:00 0 
+7f5a81270000-7f5a84000000 rwxp 00000000 00:00 0 
+7f5a84000000-7f5a84139000 rw-p 00000000 00:00 0 
+7f5a84139000-7f5a88000000 ---p 00000000 00:00 0 
+7f5a88000000-7f5a88021000 rw-p 00000000 00:00 0 
+7f5a88021000-7f5a8c000000 ---p 00000000 00:00 0 
+7f5a8c000000-7f5a8c021000 rw-p 00000000 00:00 0 
+7f5a8c021000-7f5a90000000 ---p 00000000 00:00 0 
+7f5a90012000-7f5a9002a000 rwxp 00000000 00:00 0 
+7f5a9002a000-7f5a9005c000 rwxp 00000000 00:00 0 
+7f5a9005c000-7f5a90066000 rwxp 00000000 00:00 0 
+7f5a90066000-7f5a9011c000 rwxp 00000000 00:00 0 
+7f5a9011c000-7f5a9012a000 r-xp 00000000 fd:00 2245045                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libzip.so
+7f5a9012a000-7f5a9022c000 ---p 0000e000 fd:00 2245045                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libzip.so
+7f5a9022c000-7f5a9022f000 rw-p 00010000 fd:00 2245045                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libzip.so
+7f5a9022f000-7f5a90230000 rw-p 00000000 00:00 0 
+7f5a90230000-7f5a9023b000 r-xp 00000000 fd:00 393245                     /lib64/libnss_files-2.13.so
+7f5a9023b000-7f5a9043a000 ---p 0000b000 fd:00 393245                     /lib64/libnss_files-2.13.so
+7f5a9043a000-7f5a9043b000 r--p 0000a000 fd:00 393245                     /lib64/libnss_files-2.13.so
+7f5a9043b000-7f5a9043c000 rw-p 0000b000 fd:00 393245                     /lib64/libnss_files-2.13.so
+7f5a90475000-7f5a9047c000 r-xp 00000000 fd:00 2245127                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/native_threads/libhpi.so
+7f5a9047c000-7f5a9057d000 ---p 00007000 fd:00 2245127                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/native_threads/libhpi.so
+7f5a9057d000-7f5a9057f000 rw-p 00008000 fd:00 2245127                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/native_threads/libhpi.so
+7f5a9057f000-7f5a90580000 rw-p 00000000 00:00 0 
+7f5a90580000-7f5a90581000 ---p 00000000 00:00 0 
+7f5a90581000-7f5a90d81000 rwxp 00000000 00:00 0 
+7f5a90d81000-7f5a90d8e000 r-xp 00000000 fd:00 2245133                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libverify.so
+7f5a90d8e000-7f5a90e8d000 ---p 0000d000 fd:00 2245133                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libverify.so
+7f5a90e8d000-7f5a90e90000 rw-p 0000c000 fd:00 2245133                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libverify.so
+7f5a90e90000-7f5a915ee000 r-xp 00000000 fd:00 2245147                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/server/libjvm.so
+7f5a915ee000-7f5a916ed000 ---p 0075e000 fd:00 2245147                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/server/libjvm.so
+7f5a916ed000-7f5a91865000 rw-p 0075d000 fd:00 2245147                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/server/libjvm.so
+7f5a91865000-7f5a918a3000 rw-p 00000000 00:00 0 
+7f5a918a3000-7f5a918cc000 r-xp 00000000 fd:00 2245063                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libjava.so
+7f5a918cc000-7f5a919cb000 ---p 00029000 fd:00 2245063                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libjava.so
+7f5a919cb000-7f5a919d2000 rw-p 00028000 fd:00 2245063                    /usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/libjava.so
+7f5a919d2000-7f5a919d3000 ---p 00000000 00:00 0 
+7f5a919d3000-7f5a921d3000 rwxp 00000000 00:00 0 
+7f5a921d3000-7f5a921d4000 ---p 00000000 00:00 0 
+7f5a921d4000-7f5a929d4000 rwxp 00000000 00:00 0 
+7f5a929d4000-7f5a929d7000 ---p 00000000 00:00 0 
+7f5a929d7000-7f5a931d5000 rwxp 00000000 00:00 0 
+7f5a931d5000-7f5a931d6000 rw-p 00000000 00:00 0 
+7f5a931d6000-7f5a931d7000 ---p 00000000 00:00 0 
+7f5a931d7000-7f5a939d7000 rwxp 00000000 00:00 0 
+7f5a939d7000-7f5a99868000 r--p 00000000 fd:00 1478946                    /usr/lib/locale/locale-archive
+7f5a99868000-7f5a99872000 rw-p 00000000 00:00 0 
+7f5a99872000-7f5a9987b000 r-xp 00000000 fd:00 1867630                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwbinder.so
+7f5a9987b000-7f5a99a7a000 ---p 00009000 fd:00 1867630                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwbinder.so
+7f5a99a7a000-7f5a99a7b000 rw-p 00008000 fd:00 1867630                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwbinder.so
+7f5a99a7b000-7f5a99a7c000 rw-p 00000000 00:00 0 
+7f5a99a7c000-7f5a99ee1000 r-xp 00000000 fd:00 1867838                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libhdf5.so.6.0.2
+7f5a99ee1000-7f5a9a0e0000 ---p 00465000 fd:00 1867838                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libhdf5.so.6.0.2
+7f5a9a0e0000-7f5a9a0ea000 rw-p 00464000 fd:00 1867838                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libhdf5.so.6.0.2
+7f5a9a0ea000-7f5a9a0ec000 rw-p 00000000 00:00 0 
+7f5a9a0ec000-7f5a9a10a000 r-xp 00000000 fd:00 1867839                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libhdf5_hl.so.6.0.2
+7f5a9a10a000-7f5a9a30a000 ---p 0001e000 fd:00 1867839                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libhdf5_hl.so.6.0.2
+7f5a9a30a000-7f5a9a30b000 rw-p 0001e000 fd:00 1867839                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libhdf5_hl.so.6.0.2
+7f5a9a30b000-7f5a9a31e000 rw-p 00000000 00:00 0 
+7f5a9a31e000-7f5a9a59f000 r-xp 00000000 fd:00 1996723                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libXm.so.3.0.2
+7f5a9a59f000-7f5a9a79f000 ---p 00281000 fd:00 1996723                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libXm.so.3.0.2
+7f5a9a79f000-7f5a9a7c9000 rw-p 00281000 fd:00 1996723                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libXm.so.3.0.2
+7f5a9a7c9000-7f5a9a7cb000 rw-p 00000000 00:00 0 
+7f5a9a7cb000-7f5a9a873000 r-xp 00000000 fd:00 1867670                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwlapack.so
+7f5a9a873000-7f5a9aa73000 ---p 000a8000 fd:00 1867670                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwlapack.so
+7f5a9aa73000-7f5a9aa7c000 rw-p 000a8000 fd:00 1867670                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwlapack.so
+7f5a9aa7c000-7f5a9ac8e000 r-xp 00000000 fd:00 1867652                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhgdatatypes.so
+7f5a9ac8e000-7f5a9ae8d000 ---p 00212000 fd:00 1867652                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhgdatatypes.so
+7f5a9ae8d000-7f5a9aea8000 rw-p 00211000 fd:00 1867652                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhgdatatypes.so
+7f5a9aea8000-7f5a9aeaa000 rw-p 00000000 00:00 0 
+7f5a9aeaa000-7f5a9aed3000 r-xp 00000000 fd:00 1867732                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhardcopy.so
+7f5a9aed3000-7f5a9b0d3000 ---p 00029000 fd:00 1867732                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhardcopy.so
+7f5a9b0d3000-7f5a9b0d5000 rw-p 00029000 fd:00 1867732                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhardcopy.so
+7f5a9b0d5000-7f5a9b0d6000 rw-p 00000000 00:00 0 
+7f5a9b0d6000-7f5a9b0e3000 r-xp 00000000 fd:00 1867680                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwir_xfmr.so
+7f5a9b0e3000-7f5a9b2e3000 ---p 0000d000 fd:00 1867680                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwir_xfmr.so
+7f5a9b2e3000-7f5a9b2e4000 rw-p 0000d000 fd:00 1867680                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwir_xfmr.so
+7f5a9b2e4000-7f5a9b2e6000 rw-p 00000000 00:00 0 
+7f5a9b2e6000-7f5a9b330000 r-xp 00000000 fd:00 1867654                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwspmatrix.so
+7f5a9b330000-7f5a9b52f000 ---p 0004a000 fd:00 1867654                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwspmatrix.so
+7f5a9b52f000-7f5a9b530000 rw-p 00049000 fd:00 1867654                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwspmatrix.so
+7f5a9b530000-7f5a9b548000 r-xp 00000000 fd:00 1867674                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_pcodegen.so
+7f5a9b548000-7f5a9b747000 ---p 00018000 fd:00 1867674                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_pcodegen.so
+7f5a9b747000-7f5a9b749000 rw-p 00017000 fd:00 1867674                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_pcodegen.so
+7f5a9b749000-7f5a9b74a000 rw-p 00000000 00:00 0 
+7f5a9b74a000-7f5a9b75d000 r-xp 00000000 fd:00 1867716                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_pcodeio.so
+7f5a9b75d000-7f5a9b95d000 ---p 00013000 fd:00 1867716                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_pcodeio.so
+7f5a9b95d000-7f5a9b95e000 rw-p 00013000 fd:00 1867716                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_pcodeio.so
+7f5a9b95e000-7f5a9b969000 r-xp 00000000 fd:00 1867633                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlib.so
+7f5a9b969000-7f5a9bb68000 ---p 0000b000 fd:00 1867633                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlib.so
+7f5a9bb68000-7f5a9bb6a000 rw-p 0000a000 fd:00 1867633                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlib.so
+7f5a9bb6a000-7f5a9bb8a000 r-xp 00000000 fd:00 1867709                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmathrng.so
+7f5a9bb8a000-7f5a9bd8a000 ---p 00020000 fd:00 1867709                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmathrng.so
+7f5a9bd8a000-7f5a9bd8c000 rw-p 00020000 fd:00 1867709                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmathrng.so
+7f5a9bd8c000-7f5a9bd8e000 rw-p 00000000 00:00 0 
+7f5a9bd8e000-7f5a9bdcb000 r-xp 00000000 fd:00 1867729                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwprofiler.so
+7f5a9bdcb000-7f5a9bfcb000 ---p 0003d000 fd:00 1867729                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwprofiler.so
+7f5a9bfcb000-7f5a9bfce000 rw-p 0003d000 fd:00 1867729                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwprofiler.so
+7f5a9bfce000-7f5a9c006000 r-xp 00000000 fd:00 1867812                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmat.so
+7f5a9c006000-7f5a9c205000 ---p 00038000 fd:00 1867812                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmat.so
+7f5a9c205000-7f5a9c208000 rw-p 00037000 fd:00 1867812                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmat.so
+7f5a9c208000-7f5a9c209000 rw-p 00000000 00:00 0 
+7f5a9c209000-7f5a9c5c4000 r-xp 00000000 fd:00 1867806                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libxerces-c.so.27.0
+7f5a9c5c4000-7f5a9c7c3000 ---p 003bb000 fd:00 1867806                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libxerces-c.so.27.0
+7f5a9c7c3000-7f5a9c807000 rw-p 003ba000 fd:00 1867806                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libxerces-c.so.27.0
+7f5a9c807000-7f5a9c808000 rw-p 00000000 00:00 0 
+7f5a9c808000-7f5a9c8d5000 r-xp 00000000 fd:00 1866791                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_regex.so.1.40.0
+7f5a9c8d5000-7f5a9cad5000 ---p 000cd000 fd:00 1866791                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_regex.so.1.40.0
+7f5a9cad5000-7f5a9cadb000 rw-p 000cd000 fd:00 1866791                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_regex.so.1.40.0
+7f5a9cadb000-7f5a9cb4c000 r-xp 00000000 fd:00 1867673                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwxmlcore.so
+7f5a9cb4c000-7f5a9cd4c000 ---p 00071000 fd:00 1867673                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwxmlcore.so
+7f5a9cd4c000-7f5a9cd54000 rw-p 00071000 fd:00 1867673                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwxmlcore.so
+7f5a9cd54000-7f5a9cd56000 rw-p 00000000 00:00 0 
+7f5a9cd56000-7f5a9ce9a000 r-xp 00000000 fd:00 1867723                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwuix.so
+7f5a9ce9a000-7f5a9d09a000 ---p 00144000 fd:00 1867723                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwuix.so
+7f5a9d09a000-7f5a9d0ae000 rw-p 00144000 fd:00 1867723                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwuix.so
+7f5a9d0ae000-7f5a9d0b3000 rw-p 00000000 00:00 0 
+7f5a9d0b3000-7f5a9d0f8000 r-xp 00000000 fd:00 1867694                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_ir.so
+7f5a9d0f8000-7f5a9d2f8000 ---p 00045000 fd:00 1867694                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_ir.so
+7f5a9d2f8000-7f5a9d300000 rw-p 00045000 fd:00 1867694                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_ir.so
+7f5a9d300000-7f5a9d301000 rw-p 00000000 00:00 0 
+7f5a9d301000-7f5a9d306000 r-xp 00000000 fd:00 1867727                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwuinone.so
+7f5a9d306000-7f5a9d506000 ---p 00005000 fd:00 1867727                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwuinone.so
+7f5a9d506000-7f5a9d507000 rw-p 00005000 fd:00 1867727                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwuinone.so
+7f5a9d507000-7f5a9d59a000 r-xp 00000000 fd:00 1867734                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwudd_mi.so
+7f5a9d59a000-7f5a9d79a000 ---p 00093000 fd:00 1867734                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwudd_mi.so
+7f5a9d79a000-7f5a9d7a5000 rw-p 00093000 fd:00 1867734                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwudd_mi.so
+7f5a9d7a5000-7f5a9d7a6000 rw-p 00000000 00:00 0 
+7f5a9d7a6000-7f5a9d7ed000 r-xp 00000000 fd:00 1867684                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libuij.so
+7f5a9d7ed000-7f5a9d9ed000 ---p 00047000 fd:00 1867684                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libuij.so
+7f5a9d9ed000-7f5a9d9ef000 rw-p 00047000 fd:00 1867684                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libuij.so
+7f5a9d9ef000-7f5a9d9f1000 rw-p 00000000 00:00 0 
+7f5a9d9f1000-7f5a9da95000 r-xp 00000000 fd:00 1867703                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhgutils.so
+7f5a9da95000-7f5a9dc94000 ---p 000a4000 fd:00 1867703                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhgutils.so
+7f5a9dc94000-7f5a9dc9d000 rw-p 000a3000 fd:00 1867703                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhgutils.so
+7f5a9dc9d000-7f5a9e43f000 r-xp 00000000 fd:00 1867631                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhg.so
+7f5a9e43f000-7f5a9e63e000 ---p 007a2000 fd:00 1867631                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhg.so
+7f5a9e63e000-7f5a9e6e5000 rw-p 007a1000 fd:00 1867631                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwhg.so
+7f5a9e6e5000-7f5a9e6ee000 rw-p 00000000 00:00 0 
+7f5a9e6ee000-7f5a9e7f4000 r-xp 00000000 fd:00 1867660                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwgui.so
+7f5a9e7f4000-7f5a9e9f4000 ---p 00106000 fd:00 1867660                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwgui.so
+7f5a9e9f4000-7f5a9ea2f000 rw-p 00106000 fd:00 1867660                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwgui.so
+7f5a9ea2f000-7f5a9ea31000 rw-p 00000000 00:00 0 
+7f5a9ea31000-7f5a9ec4e000 r-xp 00000000 fd:00 1867704                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmcos.so
+7f5a9ec4e000-7f5a9ee4e000 ---p 0021d000 fd:00 1867704                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmcos.so
+7f5a9ee4e000-7f5a9ee73000 rw-p 0021d000 fd:00 1867704                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmcos.so
+7f5a9ee73000-7f5a9ee7a000 r-xp 00000000 fd:00 1867676                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmtok.so
+7f5a9ee7a000-7f5a9f07a000 ---p 00007000 fd:00 1867676                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmtok.so
+7f5a9f07a000-7f5a9f07b000 rw-p 00007000 fd:00 1867676                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmtok.so
+7f5a9f07b000-7f5a9f0f3000 r-xp 00000000 fd:00 1867637                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlint.so
+7f5a9f0f3000-7f5a9f2f2000 ---p 00078000 fd:00 1867637                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlint.so
+7f5a9f2f2000-7f5a9f2fa000 rw-p 00077000 fd:00 1867637                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlint.so
+7f5a9f2fa000-7f5a9f2fb000 rw-p 00000000 00:00 0 
+7f5a9f2fb000-7f5a9f3bf000 r-xp 00000000 fd:00 1867658                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwudd.so
+7f5a9f3bf000-7f5a9f5bf000 ---p 000c4000 fd:00 1867658                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwudd.so
+7f5a9f5bf000-7f5a9f5d5000 rw-p 000c4000 fd:00 1867658                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwudd.so
+7f5a9f5d5000-7f5a9f5d8000 rw-p 00000000 00:00 0 
+7f5a9f5d8000-7f5a9f81a000 r-xp 00000000 fd:00 1867664                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_parser.so
+7f5a9f81a000-7f5a9fa19000 ---p 00242000 fd:00 1867664                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_parser.so
+7f5a9fa19000-7f5a9fe99000 rw-p 00241000 fd:00 1867664                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_parser.so
+7f5a9fe99000-7f5a9fe9a000 rw-p 00000000 00:00 0 
+7f5a9fe9a000-7f5a9fea7000 r-xp 00000000 fd:00 1867713                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmex.so
+7f5a9fea7000-7f5aa00a7000 ---p 0000d000 fd:00 1867713                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmex.so
+7f5aa00a7000-7f5aa00a8000 rw-p 0000d000 fd:00 1867713                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmex.so
+7f5aa00a8000-7f5aa0110000 r-xp 00000000 fd:00 1867635                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwiqm.so
+7f5aa0110000-7f5aa0310000 ---p 00068000 fd:00 1867635                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwiqm.so
+7f5aa0310000-7f5aa0315000 rw-p 00068000 fd:00 1867635                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwiqm.so
+7f5aa0315000-7f5aa0316000 rw-p 00000000 00:00 0 
+7f5aa0316000-7f5aa0383000 r-xp 00000000 fd:00 1866796                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_serialization.so.1.40.0
+7f5aa0383000-7f5aa0583000 ---p 0006d000 fd:00 1866796                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_serialization.so.1.40.0
+7f5aa0583000-7f5aa0587000 rw-p 0006d000 fd:00 1866796                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_serialization.so.1.40.0
+7f5aa0587000-7f5aa0588000 rw-p 00000000 00:00 0 
+7f5aa0588000-7f5aa0604000 r-xp 00000000 fd:00 1867657                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmathutil.so
+7f5aa0604000-7f5aa0804000 ---p 0007c000 fd:00 1867657                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmathutil.so
+7f5aa0804000-7f5aa0805000 rw-p 0007c000 fd:00 1867657                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmathutil.so
+7f5aa0805000-7f5aa093f000 r-xp 00000000 fd:00 1867647                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlutil.so
+7f5aa093f000-7f5aa0b3f000 ---p 0013a000 fd:00 1867647                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlutil.so
+7f5aa0b3f000-7f5aa0b47000 rw-p 0013a000 fd:00 1867647                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmlutil.so
+7f5aa0b47000-7f5aa0b51000 rw-p 00000000 00:00 0 
+7f5aa0b51000-7f5aa0b66000 r-xp 00000000 fd:00 1866792                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_signals.so.1.40.0
+7f5aa0b66000-7f5aa0d66000 ---p 00015000 fd:00 1866792                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_signals.so.1.40.0
+7f5aa0d66000-7f5aa0d67000 rw-p 00015000 fd:00 1866792                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_signals.so.1.40.0
+7f5aa0d67000-7f5aa0d68000 rw-p 00000000 00:00 0 
+7f5aa0d68000-7f5aa0d7b000 r-xp 00000000 fd:00 1866809                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_filesystem.so.1.40.0
+7f5aa0d7b000-7f5aa0f7b000 ---p 00013000 fd:00 1866809                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_filesystem.so.1.40.0
+7f5aa0f7b000-7f5aa0f7c000 rw-p 00013000 fd:00 1866809                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_filesystem.so.1.40.0
+7f5aa0f7c000-7f5aa0f7d000 rw-p 00000000 00:00 0 
+7f5aa0f7d000-7f5aa0f93000 r-xp 00000000 fd:00 1867855                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libtbbmalloc.so.2
+7f5aa0f93000-7f5aa1092000 ---p 00016000 fd:00 1867855                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libtbbmalloc.so.2
+7f5aa1092000-7f5aa1095000 rw-p 00015000 fd:00 1867855                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libtbbmalloc.so.2
+7f5aa1095000-7f5aa10a2000 rw-p 00000000 00:00 0 
+7f5aa10a2000-7f5aa10d5000 r-xp 00000000 fd:00 1867854                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libtbb.so.2
+7f5aa10d5000-7f5aa11d4000 ---p 00033000 fd:00 1867854                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libtbb.so.2
+7f5aa11d4000-7f5aa11d8000 rw-p 00032000 fd:00 1867854                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libtbb.so.2
+7f5aa11d8000-7f5aa11d9000 rw-p 00000000 00:00 0 
+7f5aa11d9000-7f5aa11e4000 r-xp 00000000 fd:00 1867741                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicuio.so.42.1
+7f5aa11e4000-7f5aa13e3000 ---p 0000b000 fd:00 1867741                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicuio.so.42.1
+7f5aa13e3000-7f5aa13e5000 rw-p 0000a000 fd:00 1867741                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicuio.so.42.1
+7f5aa13e5000-7f5aa13e6000 rw-p 00000000 00:00 0 
+7f5aa13e6000-7f5aa157c000 r-xp 00000000 fd:00 1867746                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicui18n.so.42.1
+7f5aa157c000-7f5aa177b000 ---p 00196000 fd:00 1867746                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicui18n.so.42.1
+7f5aa177b000-7f5aa1789000 rw-p 00195000 fd:00 1867746                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicui18n.so.42.1
+7f5aa1789000-7f5aa18d6000 r-xp 00000000 fd:00 1867743                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicuuc.so.42.1
+7f5aa18d6000-7f5aa1ad5000 ---p 0014d000 fd:00 1867743                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicuuc.so.42.1
+7f5aa1ad5000-7f5aa1ae6000 rw-p 0014c000 fd:00 1867743                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicuuc.so.42.1
+7f5aa1ae6000-7f5aa1ae8000 rw-p 00000000 00:00 0 
+7f5aa1ae8000-7f5aa2a2d000 r--p 00000000 fd:00 1867745                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicudata.so.42.1
+7f5aa2a2d000-7f5aa2c2c000 ---p 00f45000 fd:00 1867745                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicudata.so.42.1
+7f5aa2c2c000-7f5aa2c2d000 rw-p 00f44000 fd:00 1867745                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libicudata.so.42.1
+7f5aa2c2d000-7f5aa2c2e000 rw-p 00000000 00:00 0 
+7f5aa2c2e000-7f5aa2c54000 r-xp 00000000 fd:00 1867863                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libexpat.so.1.5.0
+7f5aa2c54000-7f5aa2e53000 ---p 00026000 fd:00 1867863                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libexpat.so.1.5.0
+7f5aa2e53000-7f5aa2e56000 rw-p 00025000 fd:00 1867863                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libexpat.so.1.5.0
+7f5aa2e56000-7f5aa2e6a000 r-xp 00000000 fd:00 1866800                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_thread.so.1.40.0
+7f5aa2e6a000-7f5aa3069000 ---p 00014000 fd:00 1866800                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_thread.so.1.40.0
+7f5aa3069000-7f5aa306b000 rw-p 00013000 fd:00 1866800                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_thread.so.1.40.0
+7f5aa306b000-7f5aa306c000 rw-p 00000000 00:00 0 
+7f5aa306c000-7f5aa306f000 r-xp 00000000 fd:00 1866802                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_system.so.1.40.0
+7f5aa306f000-7f5aa326e000 ---p 00003000 fd:00 1866802                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_system.so.1.40.0
+7f5aa326e000-7f5aa326f000 rw-p 00002000 fd:00 1866802                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_system.so.1.40.0
+7f5aa326f000-7f5aa3281000 r-xp 00000000 fd:00 1866803                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_date_time.so.1.40.0
+7f5aa3281000-7f5aa3480000 ---p 00012000 fd:00 1866803                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_date_time.so.1.40.0
+7f5aa3480000-7f5aa3482000 rw-p 00011000 fd:00 1866803                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libboost_date_time.so.1.40.0
+7f5aa3482000-7f5aa3483000 rw-p 00000000 00:00 0 
+7f5aa3483000-7f5aa34c5000 r-xp 00000000 fd:00 1867814                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwi18n.so
+7f5aa34c5000-7f5aa36c5000 ---p 00042000 fd:00 1867814                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwi18n.so
+7f5aa36c5000-7f5aa36c8000 rw-p 00042000 fd:00 1867814                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwi18n.so
+7f5aa36c8000-7f5aa36c9000 rw-p 00000000 00:00 0 
+7f5aa36c9000-7f5aa36df000 r-xp 00000000 fd:00 1996634                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libgcc_s.so.1
+7f5aa36df000-7f5aa38de000 ---p 00016000 fd:00 1996634                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libgcc_s.so.1
+7f5aa38de000-7f5aa38df000 rw-p 00015000 fd:00 1996634                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libgcc_s.so.1
+7f5aa38df000-7f5aa38e0000 rw-p 00000000 00:00 0 
+7f5aa390f000-7f5aa3917000 rw-s 00000000 fd:00 2136496                    /tmp/hsperfdata_imagine/22601
+7f5aa3917000-7f5aa3918000 rw-p 00000000 00:00 0 
+7f5aa3918000-7f5aa3919000 r--p 00000000 00:00 0 
+7f5aa3919000-7f5aa3a03000 r-xp 00000000 fd:00 1996637                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libstdc++.so.6.0.10
+7f5aa3a03000-7f5aa3c03000 ---p 000ea000 fd:00 1996637                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libstdc++.so.6.0.10
+7f5aa3c03000-7f5aa3c0a000 r--p 000ea000 fd:00 1996637                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libstdc++.so.6.0.10
+7f5aa3c0a000-7f5aa3c0c000 rw-p 000f1000 fd:00 1996637                    /usr/local/MATLAB/R2010b-2/sys/os/glnxa64/libstdc++.so.6.0.10
+7f5aa3c0c000-7f5aa3c1f000 rw-p 00000000 00:00 0 
+7f5aa3c1f000-7f5aa4093000 r-xp 00000000 fd:00 1867719                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_interpreter.so
+7f5aa4093000-7f5aa4293000 ---p 00474000 fd:00 1867719                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_interpreter.so
+7f5aa4293000-7f5aa4368000 rw-p 00474000 fd:00 1867719                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_interpreter.so
+7f5aa4368000-7f5aa4402000 rw-p 00000000 00:00 0 
+7f5aa4402000-7f5aa447c000 r-xp 00000000 fd:00 1867714                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_dispatcher.so
+7f5aa447c000-7f5aa467b000 ---p 0007a000 fd:00 1867714                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_dispatcher.so
+7f5aa467b000-7f5aa4681000 rw-p 00079000 fd:00 1867714                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwm_dispatcher.so
+7f5aa4681000-7f5aa46ee000 r-xp 00000000 fd:00 1867649                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmcr.so
+7f5aa46ee000-7f5aa48ed000 ---p 0006d000 fd:00 1867649                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmcr.so
+7f5aa48ed000-7f5aa48f2000 rw-p 0006c000 fd:00 1867649                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmcr.so
+7f5aa48f2000-7f5aa48f9000 rw-p 00000000 00:00 0 
+7f5aa48f9000-7f5aa491c000 r-xp 00000000 fd:00 1867659                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwbridge.so
+7f5aa491c000-7f5aa4b1c000 ---p 00023000 fd:00 1867659                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwbridge.so
+7f5aa4b1c000-7f5aa4b1f000 rw-p 00023000 fd:00 1867659                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwbridge.so
+7f5aa4b1f000-7f5aa4b26000 rw-p 00000000 00:00 0 
+7f5aa4b26000-7f5aa4b7c000 r-xp 00000000 fd:00 1867636                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwjmi.so
+7f5aa4b7c000-7f5aa4d7c000 ---p 00056000 fd:00 1867636                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwjmi.so
+7f5aa4d7c000-7f5aa4d80000 rw-p 00056000 fd:00 1867636                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwjmi.so
+7f5aa4d80000-7f5aa4d81000 rw-p 00000000 00:00 0 
+7f5aa4d81000-7f5aa4f18000 r-xp 00000000 fd:00 1867706                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwservices.so
+7f5aa4f18000-7f5aa5118000 ---p 00197000 fd:00 1867706                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwservices.so
+7f5aa5118000-7f5aa5126000 rw-p 00197000 fd:00 1867706                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwservices.so
+7f5aa5126000-7f5aa5136000 rw-p 00000000 00:00 0 
+7f5aa5136000-7f5aa516e000 r-xp 00000000 fd:00 1867642                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmpath.so
+7f5aa516e000-7f5aa536e000 ---p 00038000 fd:00 1867642                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmpath.so
+7f5aa536e000-7f5aa5371000 rw-p 00038000 fd:00 1867642                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwmpath.so
+7f5aa5371000-7f5aa5374000 rw-p 00000000 00:00 0 
+7f5aa5374000-7f5aa53d4000 r-xp 00000000 fd:00 1867811                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmx.so
+7f5aa53d4000-7f5aa55d3000 ---p 00060000 fd:00 1867811                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmx.so
+7f5aa55d3000-7f5aa55d6000 rw-p 0005f000 fd:00 1867811                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmx.so
+7f5aa55d6000-7f5aa5665000 r-xp 00000000 fd:00 1867815                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwfl.so
+7f5aa5665000-7f5aa5864000 ---p 0008f000 fd:00 1867815                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwfl.so
+7f5aa5864000-7f5aa586c000 rw-p 0008e000 fd:00 1867815                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libmwfl.so
+7f5aa586c000-7f5aa587c000 rw-p 00000000 00:00 0 
+7f5aa587c000-7f5aa5944000 r-xp 00000000 fd:00 1867810                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libut.so
+7f5aa5944000-7f5aa5b43000 ---p 000c8000 fd:00 1867810                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libut.so
+7f5aa5b43000-7f5aa5b4e000 rw-p 000c7000 fd:00 1867810                    /usr/local/MATLAB/R2010b-2/bin/glnxa64/libut.so
+7f5aa5b4e000-7f5aa5b64000 rw-p 00000000 00:00 0 
+7fffa18bb000-7fffa18dc000 rwxp 00000000 00:00 0                          [stack]
+7fffa18dc000-7fffa18df000 rw-p 00000000 00:00 0 
+7fffa19ff000-7fffa1a00000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Xms64m -XX:NewRatio=3 -XX:MaxPermSize=128m -Xmx196m -XX:MaxDirectMemorySize=2147400000 -Djava.util.prefs.PreferencesFactory=com.mathworks.util.DisabledPreferencesFactory -XX:+AllowUserSignalHandlers -Xrs -Dsun.awt.disableMixing=true -Djava.library.path=/usr/local/MATLAB/R2010b-2/bin/glnxa64 vfprintf abort -Djava.awt.headless=true -Dfile.encoding=UTF-8 
+java_command: <unknown>
+Launcher Type: generic
+
+Environment Variables:
+PATH=/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/bin:/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/fsfast/bin:/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/tktools:/media/DATAPART2/Kangaroo/fsl/install/fsl/bin:/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/mni/bin:/media/DATAPART2/Kangaroo/fsl/install/fsl/bin:/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/bin:/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/fsfast/bin:/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/tktools:/media/DATAPART4/DarMart/Software/Fuentes/freesurfer/mni/bin:/usr/lib64/qt-3.3/bin:/usr/lib64/mpich2/bin:/usr/lib64/ccache:/usr/local/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/media/DATAPART2/CreaTools/All_Aug2011/thirdparty_install/bin:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/bin:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/bin:/home/imagine/bin:/media/DATAPART2/CreaTools/All_Aug2011/thirdparty_install/bin:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/bin:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/bin
+LD_LIBRARY_PATH=/usr/local/MATLAB/R2010b-2/sys/os/glnxa64:/usr/local/MATLAB/R2010b-2/bin/glnxa64:/usr/local/MATLAB/R2010b-2/extern/lib/glnxa64:/usr/local/MATLAB/R2010b-2/runtime/glnxa64:/usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64/server:/usr/local/MATLAB/R2010b-2/sys/java/jre/glnxa64/jre/lib/amd64:/usr/lib64/mpich2/lib:/media/DATAPART2/CreaTools/All_Aug2011/thirdparty_install/lib/gdcm/:/media/DATAPART2/CreaTools/All_Aug2011/thirdparty_install/lib/InsightToolkit/:/media/DATAPART2/CreaTools/All_Aug2011/thirdparty_install/lib/vtk-5.6/:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/lib/creatools:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/lib64/creatools:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/lib/creatools:/media/DATAPART2/CreaTools/All_Aug2011/creatools_install/lib64/creatools:/media/DATAPART5/applications/vtk/build/bin
+SHELL=/bin/bash
+DISPLAY=
+ARCH=glnxa64
+OS=Linux
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x6bddc0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGBUS: [libjvm.so+0x6bddc0], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGFPE: [libjvm.so+0x594f90], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGPIPE: [libjvm.so+0x594f90], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGXFSZ: [libjvm.so+0x594f90], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGILL: [libjvm.so+0x594f90], sa_mask[0]=0x7ffbfeff, sa_flags=0x10000004
+SIGUSR1: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGUSR2: [libjvm.so+0x597750], sa_mask[0]=0x08080002, sa_flags=0x10000004
+SIGHUP: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGINT: SIG_IGN, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGTERM: SIG_DFL, sa_mask[0]=0x00000000, sa_flags=0x00000000
+SIGQUIT: [libmwmcr.so+0x59410], sa_mask[0]=0x08080002, sa_flags=0x00000004
+
+
+---------------  S Y S T E M  ---------------
+
+OS:Fedora release 14 (Laughlin)
+
+uname:Linux 2.6.35.14-106.fc14.x86_64 #1 SMP Wed Nov 23 13:07:52 UTC 2011 x86_64
+libc:glibc 2.13 NPTL 2.13 
+rlimit: STACK 8192k, CORE 0k, NPROC 1024, NOFILE 1024, AS infinity
+load average:29.27 10.14 5.58
+
+CPU:total 16 (8 cores per cpu, 2 threads per core) family 6 model 26 stepping 5, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, ht
+
+Memory: 4k page, physical 49621980k(148988k free), swap 51642364k(47428000k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (14.3-b01) for linux-amd64 JRE (1.6.0_17-b04), built on Oct 11 2009 01:08:48 by "java_re" with gcc 3.2.2 (SuSE Linux)
+
+time: Mon Jul 22 16:54:47 2013
+elapsed time: 0 seconds
+

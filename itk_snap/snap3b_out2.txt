@@ -1,0 +1,61 @@
+################################################
+# ITK-SnAP Label Description File
+# File format: 
+# IDX   -R-  -G-  -B-  -A--  VIS MSH  LABEL
+# Fields: 
+#    IDX:   Zero-based index 
+#    -R-:   Red color component (0..255)
+#    -G-:   Green color component (0..255)
+#    -B-:   Blue color component (0..255)
+#    -A-:   Label transparency (0.00 .. 1.00)
+#    VIS:   Label visibility (0 or 1)
+#    IDX:   Label mesh visibility (0 or 1)
+#  LABEL:   Label description 
+################################################
+    0     0    0    0        0  0  0    "Clear Label"
+    1    70  130  180        1  1  1    "Left-Cerebral-Exterior"
+    2   245  245  245        1  1  1    "Left-Cerebral-White-Matter"
+    3   205   62   78        1  1  1    "Left-Cerebral-Cortex"
+    4   120   18  134        1  1  1    "Left-Lateral-Ventricle"
+    5   196   58  250        1  1  1    "Left-Inf-Lat-Vent"
+    6     0  148    0        1  1  1    "Left-Cerebellum-Exterior"
+    7   220  248  164        1  1  1    "Left-Cerebellum-White-Matter"
+    8   230  148   34        1  1  1    "Left-Cerebellum-Cortex"
+   10     0  118   14        1  1  1    "Left-Thalamus-Proper"
+   11   122  186  220        1  1  1    "Left-Caudate"
+   12   236   13  176        1  1  1    "Left-Putamen"
+   13    12   48  255        1  1  1    "Left-Pallidum"
+   14   204  182  142        1  1  1    "3rd-Ventricle"
+   15    42  204  164        1  1  1    "4th-Ventricle"
+   16   119  159  176        1  1  1    "Brain-Stem"
+   17   220  216   20        1  1  1    "Left-Hippocampus"
+   18   103  255  255        1  1  1    "Left-Amygdala"
+   24    60   60   60        1  1  1    "CSF"
+   26   255  165    0        1  1  1    "Left-Accumbens-area"
+   28   165   42   42        1  1  1    "Left-VentralDC"
+   30   160   32  240        1  1  1    "Left-vessel"
+   31     0  200  200        1  1  1    "Left-choroid-plexus"
+   41     0  225    0        1  1  1    "Right-Cerebral-White-Matter"
+   42   205   62   78        1  1  1    "Right-Cerebral-Cortex"
+   43   120   18  134        1  1  1    "Right-Lateral-Ventricle"
+   44   196   58  250        1  1  1    "Right-Inf-Lat-Vent"
+   46   220  248  164        1  1  1    "Right-Cerebellum-White-Matter"
+   47   230  148   34        1  1  1    "Right-Cerebellum-Cortex"
+   49     0  118   14        1  1  1    "Right-Thalamus-Proper"
+   50   122  186  220        1  1  1    "Right-Caudate"
+   51   236   13  176        1  1  1    "Right-Putamen"
+   52    13   48  255        1  1  1    "Right-Pallidum"
+   53   220  216   20        1  1  1    "Right-Hippocampus"
+   54   103  255  255        1  1  1    "Right-Amygdala"
+   58   255  165    0        1  1  1    "Right-Accumbens-area"
+   60   165   42   42        1  1  1    "Right-VentralDC"
+   62   160   32  240        1  1  1    "Right-vessel"
+   63     0  200  221        1  1  1    "Right-choroid-plexus"
+   77   200   70  255        1  1  1    "WM-hypointensities"
+   80   164  108  226        1  1  1    "non-WM-hypointensities"
+   85   234  169   30        1  1  1    "Optic-Chiasm"
+  251     0    0   64        1  1  1    "CC_Posterior"
+  252     0    0  112        1  1  1    "CC_Mid_Posterior"
+  253     0    0  160        1  1  1    "CC_Central"
+  254     0    0  208        1  1  1    "CC_Mid_Anterior"
+  255     0    0  255        1  1  1    "CC_Anterior"

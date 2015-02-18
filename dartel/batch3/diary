@@ -1,0 +1,26 @@
+disp hola
+hola
+2+2
+
+ans =
+
+     4
+
+get(0,'diary')
+
+ans =
+
+on
+
+magic(4)
+
+ans =
+
+    16     2     3    13
+     5    11    10     8
+     9     7     6    12
+     4    14    15     1
+
+uiopen('C:\Users\da.angulo39\Documents\Matlab\Kanguros\batch\diary',1)
+uiopen('C:\Users\da.angulo39\Documents\Matlab\Kanguros\batch\diary',1)
+diary('output.txt')

@@ -1,0 +1,20 @@
+matlabbatch{1}.spm.tools.dartel.mni_norm.template(1) = {'<UNDEFINED>'};
+matlabbatch{1}.spm.tools.dartel.mni_norm.template(1).tname = 'DARTEL Template';
+matlabbatch{1}.spm.tools.dartel.mni_norm.template(1).tgt_spec{1}.name = 'filter';
+matlabbatch{1}.spm.tools.dartel.mni_norm.template(1).tgt_spec{1}.value = 'nifti';
+matlabbatch{1}.spm.tools.dartel.mni_norm.template(1).sname = 'Run DARTEL (create Templates): Template (Iteration 6)';
+matlabbatch{1}.spm.tools.dartel.mni_norm.template(1).src_exbranch = substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1});
+matlabbatch{1}.spm.tools.dartel.mni_norm.template(1).src_output = substruct('.','template', '()',{7});
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.flowfields(1) = cfg_dep;
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.flowfields(1).tname = 'Flow fields';
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.flowfields(1).tgt_spec{1}.name = 'filter';
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.flowfields(1).tgt_spec{1}.value = 'nifti';
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.flowfields(1).sname = 'Run DARTEL (create Templates): Flow Fields';
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.flowfields(1).src_exbranch = substruct('.','val', '{}',{2}, '.','val', '{}',{1}, '.','val', '{}',{1}, '.','val', '{}',{1});
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.flowfields(1).src_output = substruct('.','files', '()',{':'});
+matlabbatch{1}.spm.tools.dartel.mni_norm.data.subjs.images = {'<UNDEFINED>'};
+matlabbatch{1}.spm.tools.dartel.mni_norm.vox = [NaN NaN NaN];
+matlabbatch{1}.spm.tools.dartel.mni_norm.bb = [NaN NaN NaN
+                                               NaN NaN NaN];
+matlabbatch{1}.spm.tools.dartel.mni_norm.preserve = 0;
+matlabbatch{1}.spm.tools.dartel.mni_norm.fwhm = [8 8 8];

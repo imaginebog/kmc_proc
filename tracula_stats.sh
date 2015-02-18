@@ -1,0 +1,18 @@
+#!/bin/bash
+
+
+kmc_400_root=/media/DATAPART5/kmc400
+apps_root=/media/DATAPART5/applications
+
+export FREESURFER_HOME=$apps_root/free_surfer_new/freesurfer
+export SUBJECTS_DIR=$kmc_400_root/freeSurfer_Tracula
+
+paths="fmajor_PP_avg33_mni_bbr fminor_PP_avg33_mni_bbr lh.atr_PP_avg33_mni_bbr lh.cab_PP_avg33_mni_bbr lh.ccg_PP_avg33_mni_bbr lh.cst_AS_avg33_mni_bbr lh.ilf_AS_avg33_mni_bbr lh.slfp_PP_avg33_mni_bbr lh.slft_PP_avg33_mni_bbr lh.unc_AS_avg33_mni_bbr rh.atr_PP_avg33_mni_bbr rh.cab_PP_avg33_mni_bbr rh.ccg_PP_avg33_mni_bbr rh.cst_AS_avg33_mni_bbr rh.ilf_AS_avg33_mni_bbr rh.slfp_PP_avg33_mni_bbr rh.slft_PP_avg33_mni_bbr rh.unc_AS_avg33_mni_bbr"
+cd  $kmc_400_root/freeSurfer_Tracula/tracula_group
+
+
+for p in ${paths[*]}
+do
+    find .. -path */$p/pathstats.overall.txt > all_$p.txt
+    tractstats2table --load-pathstats-from-file all_$p.txt --overall --tablefile $p.csv
+done

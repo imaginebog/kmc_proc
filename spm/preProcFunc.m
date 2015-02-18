@@ -18,7 +18,7 @@ end
 Patients=cellstr(p);
 
 nrun = size(Patients,2);
-jobfile = {'/media/DATAPART5/kmc400/scripts/spm/singleFMRIscript_job.m'};
+jobfile = {'/media/DATAPART5/kmc400/scripts/spm/singleFMRIscript_job_job.m'};
 jobs = repmat(jobfile, 1, nrun);
 inputs = cell(2, nrun);
 for crun = 1:nrun
@@ -53,5 +53,24 @@ for crun = 1:nrun
 end
 spm('defaults', 'FMRI');
 spm_jobman('serial', jobs, '', inputs{:});
-exit
+
+% Check for movement correction
+mov_file_name=[InputRoute '/rp_aBOLD-0000.txt'];
+mov_file=fopen(mov_file_name);
+mov=textscan(mov_file,'%f %f %f %*[^\n]');
+fclose(mov_file);
+mov_x=mov{1};
+mov_y=mov{2};
+mov_z=mov{3};
+magn_mov=mov_x.^2+mov_y.^2+mov_z.^2;
+danger=find(magn_mov>3.0);
+if(~isempty(danger))
+    magns=magn_mov(danger);
+    danger_magn=[danger magns];
+    warn_file=fopen([InputRoute 'WARNING.txt'],'w');
+    fprintf(warn_file,'%i %f \n',danger_magn');
+    fclose(warn_file);
+    exit(1)
+end;
+exit(0)
 end

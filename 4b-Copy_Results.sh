@@ -34,11 +34,18 @@ cp /media/DATAPART5/kmc400/spm/$subject/$pdgm/c[12]T1.nii /media/DATAPART5/kmc40
 # copiar Bold 'smooth'
 cp /media/DATAPART5/kmc400/spm/$subject/$pdgm/swraBOLD-* /media/DATAPART5/kmc400/ftp/preproc/$subject/$pdgm/
 
+# archivo de parametros de movimiento
+cp /media/DATAPART5/kmc400/spm/$subject/$pdgm/rp_aBOLD-0000.txt /media/DATAPART5/kmc400/ftp/preproc/$subject/$pdgm/
+
+# spm.matrp_aBOLD-0000.txt
+# cp /media/DATAPART5/kmc400/spm/$subject/$pdgm/canonical /media/DATAPART5/kmc400/ftp/preproc/$subject/$pdgm/
 
 fi
-
 done
 
 echo Finished looping through paradigms
+#Warnings
+ [ -f /media/DATAPART5/kmc400/spm/$subject/*WARNING.txt ] && cp /media/DATAPART5/kmc400/spm/$subject/*WARNING.txt /media/DATAPART5/kmc400/ftp/preproc/$subject
+
 #===============================================
 
